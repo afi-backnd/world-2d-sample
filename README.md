@@ -3,7 +3,9 @@
 ## Project Overview
 This project is a 2D sample Unity game that demonstrates integration with backend services for a persistent game world. It showcases real-time multiplayer functionality, cloud-based game state management, and cross-platform compatibility.
 
-![](https://developer.thebackend.io/sdk/world/demo/2ddemo.gif)
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/b6d15671-fa92-450f-bcae-10a08918f3b3" width="500" />
+</div>
 
 ## Key Features
 - Real-time multiplayer gameplay
