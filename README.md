@@ -17,7 +17,6 @@ This project is a 2D sample Unity game that demonstrates integration with backen
 - Unity 2022.3.x
 - C#
 - Backnd Worlds Service
-- Unity Universal Render Pipeline (URP)
 
 ## Installation
 1. Clone this repository
