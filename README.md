@@ -1,7 +1,9 @@
-# 2D Sample Unity Projcet with Backnd Worlds Service
+# 2D Sample Unity Project with Backnd Worlds Service
 
 ## Project Overview
 This project is a 2D sample Unity game that demonstrates integration with backend services for a persistent game world. It showcases real-time multiplayer functionality, cloud-based game state management, and cross-platform compatibility.
+
+![2DSample.gif](https://developer.thebackend.io/sdk/world/demo/2ddemo.gif)
 
 ## Key Features
 - Real-time multiplayer gameplay
