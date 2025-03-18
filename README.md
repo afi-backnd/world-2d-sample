@@ -4,7 +4,7 @@
 This project is a 2D sample Unity game that demonstrates integration with backend services for a persistent game world. It showcases real-time multiplayer functionality, cloud-based game state management, and cross-platform compatibility.
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/b6d15671-fa92-450f-bcae-10a08918f3b3" width="500" />
+  <video src="https://github.com/user-attachments/assets/fa6fc679-4901-4ea1-ae1f-9026ec567537"/>
 </div>
 
 ## Key Features
