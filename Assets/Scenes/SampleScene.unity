@@ -915,8 +915,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2062158796}
-  - component: {fileID: 2062158795}
   - component: {fileID: 2062158794}
+  - component: {fileID: 2062158795}
   - component: {fileID: 2062158793}
   m_Layer: 0
   m_Name: GameNetworkManager
@@ -941,7 +941,6 @@ MonoBehaviour:
   backndClientAppID: 
   backndSignatureKey: 
   backndUUID: 
-  maxConnections: 100
   offlineScene: 
   onlineScene: 
   dontDestroyOnLoad: 1
@@ -983,7 +982,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2062158792}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b0fecffa3f624585964b0d0eb21b18e, type: 3}
+  m_Script: {fileID: 11500000, guid: 08a76a490d7de4855926208f3502e211, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &2062158796
