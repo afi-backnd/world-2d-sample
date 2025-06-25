@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.backnd.world": "0.0.11",
+    "com.backnd.world": "0.0.20",
     "com.unity.collab-proxy": "2.7.1",
     "com.unity.feature.2d": "2.0.1",
     "com.unity.ide.rider": "3.0.36",
@@ -11,7 +11,7 @@
     "com.unity.timeline": "1.7.7",
     "com.unity.toolchain.macos-arm64-linux-x86_64": "2.0.4",
     "com.unity.ugui": "1.0.0",
-    "com.unity.visualscripting": "1.9.6",
+    "com.unity.visualscripting": "1.9.8",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",

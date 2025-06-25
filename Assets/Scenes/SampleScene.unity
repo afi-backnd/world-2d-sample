@@ -937,14 +937,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b97884f8e55e4f4ea42f09a365bc11f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serverState: 0
+  currentConnections: 0
+  maxConnections: 0
   useCloud: 0
   backndClientAppID: 
   backndSignatureKey: 
   backndUUID: 
   offlineScene: 
   onlineScene: 
-  dontDestroyOnLoad: 1
-  runInBackground: 1
+  networkScenes: []
+  visRange: 500
   headlessStartMode: 0
   editorAutoStart: 0
   playerPrefab: {fileID: 6059729468751807553, guid: df169f7bc243a4ba59f8f501c6d5482d, type: 3}
