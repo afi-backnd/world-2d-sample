@@ -200,10 +200,10 @@ MonoBehaviour:
   syncDirection: 0
   syncMode: 0
   syncInterval: 0
-  moveSpeed: 2
-  detectionRadius: 10
   maxHealth: 100
   currentHealth: 0
+  moveSpeed: 2
+  detectionRadius: 10
   stunDuration: 0.7
 --- !u!114 &3773447492689221715
 MonoBehaviour:
@@ -220,7 +220,6 @@ MonoBehaviour:
   sceneId: 0
   _assetId: 4135926856
   serverOnly: 0
-  visibility: 0
   hasSpawned: 0
 --- !u!114 &4010716593593618706
 MonoBehaviour:
@@ -238,7 +237,7 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0
   clientAuthority: 1
-  animator: {fileID: 3389590806591202971}
+  _animator: {fileID: 3389590806591202971}
 --- !u!114 &-5891975560530144231
 MonoBehaviour:
   m_ObjectHideFlags: 0

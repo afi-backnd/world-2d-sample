@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -8414223724982434625}
   - component: {fileID: 732943256939714310}
   - component: {fileID: 2815174768605284748}
-  - component: {fileID: 7084484323248156383}
+  - component: {fileID: 4605042465946372202}
   - component: {fileID: -6879455565544365434}
   m_Layer: 0
   m_Name: Meteor
@@ -200,7 +200,6 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0
   damage: 20
-  explosionRadius: 2
   meteorSpreadRadius: 1.5
   targetLayers:
     serializedVersion: 2
@@ -222,9 +221,8 @@ MonoBehaviour:
   sceneId: 0
   _assetId: 1120630465
   serverOnly: 0
-  visibility: 0
   hasSpawned: 0
---- !u!114 &7084484323248156383
+--- !u!114 &4605042465946372202
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -240,7 +238,7 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0
   clientAuthority: 1
-  animator: {fileID: 1706713717464848471}
+  _animator: {fileID: 1706713717464848471}
 --- !u!114 &-6879455565544365434
 MonoBehaviour:
   m_ObjectHideFlags: 0

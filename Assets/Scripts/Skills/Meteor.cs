@@ -1,6 +1,7 @@
 using UnityEngine;
 using BACKND;
 using System.Collections.Generic;
+using System.Linq;
 
 public class Meteor : NetworkBehaviour
 {
@@ -87,13 +88,17 @@ public class Meteor : NetworkBehaviour
     [Server]
     private void Explode()
     {       
-        foreach (GameObject hitObject in detectedObjects)
+        GameObject[] objectsToProcess = detectedObjects.ToArray();
+        
+        foreach (GameObject hitObject in objectsToProcess)
         {
-            // 몬스터에게 데미지 적용
-            Monster monster = hitObject.GetComponent<Monster>();
-            if (monster != null)
+            if (hitObject != null) // null 체크 추가
             {
-                monster.TakeDamage((int)damage);
+                Monster monster = hitObject.GetComponent<Monster>();
+                if (monster != null)
+                {
+                    monster.TakeDamage((int)damage);
+                }
             }
         }
     }

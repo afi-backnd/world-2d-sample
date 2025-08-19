@@ -390,7 +390,6 @@ MonoBehaviour:
   sceneId: 0
   _assetId: 1460760743
   serverOnly: 0
-  visibility: 0
   hasSpawned: 0
 --- !u!114 &6974962420079858109
 MonoBehaviour:
@@ -408,7 +407,7 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0
   clientAuthority: 1
-  animator: {fileID: 4572589412308970596}
+  _animator: {fileID: 4572589412308970596}
 --- !u!114 &-596241199587217970
 MonoBehaviour:
   m_ObjectHideFlags: 0
